@@ -1,0 +1,138 @@
+---
+---
+
+* {
+  box-sizing: border-box;
+}
+
+.menu {
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-container {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.menu-list {
+  width: 100%;
+  text-align: center;
+  list-style: none;
+  padding: 32px 0;
+  margin: 0;
+}
+
+.menu-list-item {
+  padding: 4px;
+  font-size: 3rem;
+}
+
+.menu-list-item a {
+  color: #000;
+  text-decoration: none;
+}
+
+.menu-footer {
+  position: fixed;
+  padding: 12px;
+  bottom: 0;
+  left: 0;
+}
+
+.switch {
+  position: fixed;
+  right: 0;
+  top: 0;
+  padding: 20px;
+}
+
+.switch-inverse {
+  .switch-back1 {
+    border-color: #fff;
+  }
+
+  .switch-back2 {
+    background: #fff;
+  }
+
+  .switch-active {
+    border-color: #fff;
+  }
+
+  .switch-front-1.switch-active,
+  .switch-front-2.switch-active {
+    background: #000;
+  }
+  .switch-front-3.switch-active {
+    background: #fff;
+  }
+}
+
+.switch-back1 {
+  border: 2px #000 solid;
+  border-radius: 32px;
+}
+
+.switch-back2 {
+  background: #000;
+  border-radius: 32px;
+}
+
+.switch-front {
+  display: block;
+  width: 32px;
+  height: 32px;
+  color: rgba(0, 0, 0, 0);
+  text-decoration: none;
+}
+
+.switch-front-1 {
+}
+
+.switch-front-2 {
+  margin: 32px 0 0 0;
+}
+
+.switch-front-3 {
+  margin: 32px 0 0;
+}
+
+.switch-active {
+  border-radius: 100%;
+  border: 2px #000 solid;
+}
+
+.switch-front-1.switch-active,
+.switch-front-2.switch-active {
+  background: #fff;
+}
+
+.switch-front-3.switch-active {
+  background: rgba(0, 0, 0, 0);
+}
+
+.opencalls {
+  background: #000;
+  color: #fff;
+}
+
+.opencalls-main {
+  max-width: 720px;
+
+  padding: 20px;
+  @media all and (min-width: 560px) {
+    font-size: 1.2rem;
+  }
+
+  @media all and (min-width: 800px) {
+    font-size: 1.3rem;
+  }
+
+  @media all and (min-width: 1024px) {
+    max-width: 960px;
+    font-size: 1.4rem;
+  }
+}

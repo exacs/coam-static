@@ -1,0 +1,53 @@
+---
+---
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.home-link {
+  color: #000;
+  text-decoration: none;
+  @media all and (min-height: 150px) {
+    display: flex;
+    height: 100%;
+    align-items: center;
+  }
+}
+
+.home-text {
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+
+  @media all and (min-height: 560px) {
+    padding-bottom: 60px;
+  }
+}
+
+.home-text-title {
+  font-size: 36px;
+  font-family: Helvetica;
+  padding: 0;
+  margin: 0;
+  @media all and (min-width: 640px) {
+    font-size: 80px;
+  }
+}
+
+.home-text-subtitle {
+  font-size: 12px;
+  font-family: Raleway;
+  @media all and (min-width: 640px) {
+    font-size: 16px;
+  }
+}
