@@ -6,13 +6,16 @@
   <title>Revista Arquitectura</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Archivo+Black|EB+Garamond|Muli|Open+Sans|Poppins|Raleway|Roboto+Mono|Vollkorn">
   <link rel="stylesheet" href="{{ '/css/index.css' | relative_url }}">
 </head>
 
 <body class="home">
   <a href="{{ '/menu' | relative_url }}" class="home-link">
     <main class="home-text">
-      <h1 class="home-text-title">Arquitectura</h1>
+      <h1 class="home-text-title">
+        <img src="{{ '/imgs/arquitectura2.svg' | relative_url }}" onerror="this.src='{{ '/imgs/arquitectura2-xxxhdpi.png' | relative_url }}'" alt="Arquitectura">
+      </h1>
       <p class="home-text-subtitle">Revista de Arquitectura y Urbanismo del Colegio de Arquitectos de <strong>Madrid</strong></p>
     </main>
   </a>
