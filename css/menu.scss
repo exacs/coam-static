@@ -26,7 +26,7 @@
 }
 
 .menu-list-item {
-  padding: 4px;
+  padding: 0 4px;
   font-size: 3rem;
   text-transform: uppercase;
 }
@@ -44,11 +44,13 @@
 .menu-list-item-highlights {
   font-family: 'Poppins';
   font-weight: 500;
+  line-height: 3rem;
 }
 
 .menu-list-item-labs {
   font-family: 'EB Garamond';
   font-weight: 400;
+  font-style: 3.6rem;
 }
 
 .menu-list-item-barrios {
@@ -59,11 +61,14 @@
 .menu-list-item-suburbia {
   font-family: 'Vollkorn';
   font-weight: 900;
+  line-height: 3.6rem;
+  padding-top: 0.5rem;
 }
 
 .menu-list-item-tecnicas {
   font-family: 'Muli';
   font-weight: 300;
+  line-height: 3rem;
 }
 
 .menu-list-item-invariantes {
