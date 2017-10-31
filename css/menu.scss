@@ -82,11 +82,22 @@
   font-style: italic;
 }
 
+.menu-list-item-issues {
+  font-family: 'Open Sans';
+  font-weight: 800;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
 .menu-footer {
   position: fixed;
   padding: 12px;
   bottom: 0;
   left: 0;
+  font-family: 'Open Sans';
+  font-weight: 800;
+  font-style: italic;
+  text-transform: uppercase;
 }
 
 .switch {
