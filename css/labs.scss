@@ -1,0 +1,99 @@
+---
+---
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.labs {
+  font-family: 'EB Garamond', serif;
+  font-weight: 400;
+}
+
+.labs-container {
+  padding: 24px;
+  width: 320px;
+  margin: 0 auto;
+
+  @media all and (min-width: 768px) {
+    width: 720px;
+    margin-right: 12rem;
+    margin-left: auto;
+  }
+  @media all and (min-width: 1280px) {
+    margin: 0 auto;
+  }
+}
+
+.labs-title {
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 7rem;
+  @media all and (min-width: 768px) {
+    font-size: 17rem;
+    line-height: 17rem;
+  }
+  padding: 0;
+  margin: 0;
+}
+
+.labs-entry {}
+
+.labs-entry-title {
+  font-size: 2rem;
+  line-height: 2rem;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+}
+
+.labs-entry-author {
+  font-size: 2rem;
+}
+
+.labs-entry p {
+  margin-top: 0;
+  font-size: 1.2rem
+}
+
+.labs-ref {
+  color: #000;
+  text-decoration: underline;
+}
+
+.labs-side {
+  float: right;
+  width: 10rem;
+  @media all and (min-width: 924px) {
+    display: flex;
+    margin-right: -11rem;
+  }
+}
+
+.labs-side-arrow {
+  font-size: 1rem;
+  float: left;
+  padding-top: 0.25rem;
+  @media all and (min-width: 924px) {
+    font-size: 48px !important;
+    margin-left: -12px;
+    margin-right: -12px;
+  }
+}
+
+.labs-side-content {
+  padding-left: 1rem;
+
+  @media all and (min-width: 924px) {
+    display: block;
+  }
+}
