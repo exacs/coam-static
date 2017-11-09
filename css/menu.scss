@@ -51,7 +51,7 @@
 }
 
 .menu-list-item-labs {
-  font-family: 'EB Garamond', serif;
+  font-family: 'Source Code Pro', serif;
   font-weight: 400;
   font-size: 3.6rem;
 }
@@ -186,20 +186,77 @@
   color: #fff;
 }
 
+.opencalls a {
+  color: #fff;
+  text-decoration: underline;
+}
+
 .opencalls-main {
   max-width: 720px;
 
   padding: 20px;
   @media all and (min-width: 560px) {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
   @media all and (min-width: 800px) {
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
 
   @media all and (min-width: 1024px) {
     max-width: 960px;
-    font-size: 1.4rem;
+    font-size: 1.1rem;
   }
+}
+
+.opencalls-title {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  font-style: italic;
+  text-transform: uppercase;
+  font-size: 4rem;
+  line-height: 4rem;
+}
+
+.opencalls-section-title {
+  font-size: 3rem;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+.opencalls-radar {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 400;
+}
+
+.opencalls-highlights {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  line-height: 1.6rem;
+}
+
+.opencalls-highlights-title {
+  font-weight: 500;
+}
+
+.opencalls-labs {
+  font-family: 'Source Code Pro', serif;
+  font-weight: 400;
+}
+
+.opencalls-suburbia {
+  font-family: 'Vollkorn', serif;
+  font-weight: 600;
+  line-height: 1.6rem;
+}
+
+.opencalls-suburbia-title {
+  font-family: 'Vollkorn', serif;
+  font-weight: 900;
+  line-height: 2rem;
+}
+
+.opencalls-invariantes {
+  font-family: 'Archivo Black', serif;
+  font-weight: 400;
 }
