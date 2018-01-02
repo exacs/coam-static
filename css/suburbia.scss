@@ -1,0 +1,102 @@
+---
+---
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.suburbia {
+  font-family: 'Vollkorn', serif;
+  font-weight: 900;
+}
+
+.suburbia-container {
+  padding: 0 32px;
+  max-width: 320px;
+  @media all and (min-width: 480px) {
+    max-width: 480px;
+  }
+  @media all and (min-width: 720px) {
+    max-width: 720px;
+  }
+  @media all and (min-width: 1024px) {
+    max-width: 1024px;
+  }
+  margin: 72px auto;
+}
+
+.suburbia-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 3rem;
+  @media all and (min-width: 480px) {
+    font-size: 5rem;
+  }
+  @media all and (min-width: 720px) {
+    font-size: 7.8rem;
+  }
+  @media all and (min-width: 1024px) {
+    font-size: 11rem;
+  }
+  margin: 0;
+  padding: 0;
+  margin-bottom: 3rem;
+}
+
+.suburbia-article {
+  max-width: 720px;
+  margin: auto;
+}
+
+.suburbia-article-title {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.suburbia-article-body {
+  font-size: 2rem;
+}
+
+.suburbia-article-translation {
+  font-size: 1rem;
+}
+
+.suburbia-photos {
+  max-width: 720px;
+  margin: auto;
+}
+
+.suburbia-photos-title {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.suburbia-photoslist {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.suburbia-photoslist-item {
+  padding-top: 36px;
+}
+
+.suburbia-photo-number {
+  font-size: 2rem;
+  transform-origin: 0% 0%;
+  transform: rotate(90deg);
+  position: absolute;
+}
+
+.suburbia-photo-image img {
+  max-width: 100%;
+}
