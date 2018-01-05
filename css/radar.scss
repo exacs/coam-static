@@ -31,6 +31,7 @@ body {
 .radar-title {
   text-transform: uppercase;
   font-size: 5rem;
+  font-weight: 400;
   @media all and (min-width: 768px) {
     font-size: 13rem;
   }
@@ -38,34 +39,121 @@ body {
   margin: 0;
 }
 
-.radar-entry {
+.radar-article-header {
+  text-align: right;
+}
+
+.radar-article-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  font-style: italic;
+  padding: 0;
+  margin: 0;
+}
+
+.radar-article-author {
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.radar-article-subtitle {
+  font-weight: 700;
+}
+
+.radar-article-main {
+  font-weight: 700;
+  font-size: 1.2rem;
   position: relative;
 }
 
-.radar-entry-number {
-  width: 24px;
+.radar-article-start {
   position: absolute;
-  left: -24px;
-  @media all and (min-width: 768px) {
-    left: -48px;
-  }
+  top: 0;
+  left: -36px;
 }
 
-.radar-entry-initial {
-  font-weight: 400;
+.radar-article-end {
+  position: absolute;
+  bottom: 0;
+  right: -36px;
 }
 
-.radar-entry-comments {
-  list-style: none;
-  margin: 0;
+.radar-article-section {
+  position: relative;
+}
+
+.radar-article-section p {
   padding: 0;
-  margin-left: 24px;
-  font-size: 0.9rem;
+  margin: 0;
+}
+
+.radar-article-section-title {
+  padding: 0;
+  margin: -16px 0 0 0;
+  position: absolute;
+  left: -140px;
+  width: 160px;
+  border-bottom: 2px dashed #000;
+  font-size: 0.6rem;
+  height: 16px;
+  color: #666;
+}
+
+.radar-article-aside {
+  font-weight: 700;
+}
+
+.radar-comments-title {
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+  font-size: 1.4rem;
+  font-style: italic;
+}
+
+.radar-comment {
+  position: relative;
+  padding-left: 4rem;
+}
+
+.radar-comment-number {
+  position: absolute;
+  left: 0;
+  font-weight: 700;
+}
+
+.radar-comment-author {
+  display: inline-block;
+  font-weight: 700;
+}
+
+.radar-comment-date {
+  display: inline-block;
   font-weight: 300;
 }
 
-.radar-entry-comment {
-  padding: 0;
+.radar-comment-main {
+  display: inline-block;
+  font-weight: 400;
+}
+
+.radar-comment-level1 .radar-comment-header,
+.radar-comment-level1 .radar-comment-main {
+  font-size: 0.8rem;
+}
+
+.radar-comment-level2 .radar-comment-header,
+.radar-comment-level2 .radar-comment-main {
+  font-size: 0.6rem;
+}
+
+.radar-comment-main p {
   margin: 0;
-  padding-bottom: 16px;
+  padding: 0;
+}
+
+.radar-grid-1 {
+  padding-left: 4rem;
+  font-size: 0.8rem;
 }
