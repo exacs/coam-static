@@ -1,0 +1,48 @@
+---
+---
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.invariantes {
+  font-family: 'Archivo Black', sans-serif;
+  font-weight: 400;
+}
+
+.invariantes-container {
+
+  margin: 72px auto;
+}
+
+.invariantes-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2rem;
+  @media all and (min-width: 480px) {
+    font-size: 3rem;
+  }
+  @media all and (min-width: 720px) {
+    font-size: 5rem;
+  }
+  @media all and (min-width: 1024px) {
+    font-size: 7.2rem;
+  }
+  margin: 0;
+  padding: 0;
+  margin-bottom: 3rem;
+}
+
+.invariantes-image {
+  display: block;
+  width: 100%;
+}
